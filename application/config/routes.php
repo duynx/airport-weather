@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['ajax-airport-search'] = 'Airport/ajaxSearchAirport';
 $route['login'] = 'user/login';
 $route['logout'] = 'user/logout';
+$route['register'] = 'user/register';

@@ -17,7 +17,6 @@ class Home extends CI_Controller
         }
         $data = array(
             'title' => 'Weather in airport',
-            'message' => 'Select the airport to get weather',
         );
 
         //Set the validation rules

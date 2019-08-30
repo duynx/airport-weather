@@ -14,15 +14,21 @@ class User_model extends CI_Model
     {
         $query = $this->db->query("SELECT password FROM " . $this->db->dbprefix . $this->_table . " WHERE username='$username'");
         $result = $query->result();
-        if(empty($result)){
+        if (empty($result)) {
             return false;
-        }else{
+        } else {
             $hashedPass = $result[0]->password;
-            if(verify_password($password,$hashedPass)){
+            if (verify_password($password, $hashedPass)) {
                 return true;
-            }else{
+            } else {
                 return false;
             }
         }
+    }
+
+    public function insert_user($username, $password)
+    {
+        $query = $this->db->query("INSERT INTO ".$this->db->dbprefix . $this->_table." (username, password) VALUES ('$username', '$password')");
+        return $query;
     }
 }
