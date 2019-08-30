@@ -17,3 +17,4 @@ application/logs/*
 /vendor/
 .idea/
 .DS_Store
+/application/vendor
