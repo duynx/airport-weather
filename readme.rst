@@ -11,7 +11,8 @@ Installation
 
 1. Import db_airport24.sql file to your database.
 2. Edit db configuration at application/config/database.php
-3. Login
+3. Run "Composer update" in 'application' folder to get the composer package.
+4. Login
 
 -  Default user is: admin/password
 
