@@ -16,8 +16,7 @@ Installation
 
 -  Default user is: admin/password
 
--  OR
-You can register a new user to get the airport weather.
+-  OR You can register a new user to get the airport weather.
 
 ###################
 What is CodeIgniter
