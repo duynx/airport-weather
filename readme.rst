@@ -12,10 +12,11 @@ Installation
 1. Import db_airport24.sql file to your database.
 2. Edit db configuration at application/config/database.php
 3. Login
-Default user is:
+
+-  Default user is:
 User: admin
 Pwd: password
-OR
+-  OR
 You can register a new user to get the airport weather.
 
 ###################
