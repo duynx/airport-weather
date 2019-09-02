@@ -62,7 +62,12 @@ class Home extends CI_Controller
             $content_arr = explode("\n",$contents);
             $rs = get_weather_by_time($content_arr,$time_input);
             $data['resutl'] = $rs;
-            $this->session->set_flashdata('mess', 'Get the weather successful!');
+            if(empty($rs)){
+                $this->session->set_flashdata('mess', "Sorry, we dont have the weather data for this airport at this time yet!");
+            }else{
+                $this->session->set_flashdata('mess', 'Get the weather successful!');
+            }
+
             $this->session->set_flashdata('rs', $rs);
         }
 

@@ -1,4 +1,24 @@
 ###################
+Airport weather application - Duy Nguyen
+###################
+
+This application using CodeIgniter 3 and MySQL.
+This is a website where authenticated users can request weather data at a specific airport/ date/ time.
+
+*******************
+Installation
+*******************
+
+1. Import db_airport24.sql file to your database.
+2. Edit db configuration at application/config/database.php
+3. Login
+Default user is:
+User: admin
+Pwd: password
+OR
+You can register a new user to get the airport weather.
+
+###################
 What is CodeIgniter
 ###################
 
