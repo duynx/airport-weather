@@ -13,9 +13,8 @@ Installation
 2. Edit db configuration at application/config/database.php
 3. Login
 
--  Default user is:
-User: admin
-Pwd: password
+-  Default user is: admin/password
+
 -  OR
 You can register a new user to get the airport weather.
 
